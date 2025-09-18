@@ -1,4 +1,4 @@
-# To-Do List Web Application - Technical Specification
+# TaskOps - Technical Specification
 
 ## Project Overview
 
