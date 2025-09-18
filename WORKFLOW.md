@@ -1,8 +1,8 @@
-# To-Do List Web Application - Workflow Documentation
+# TaskOps-A-DevOps-Driven-Todo-App - Workflow Documentation
 
 ## Overview
 
-This document outlines the complete workflow for developing, building, testing, and deploying the To-Do List web application. It covers both development workflows and CI/CD automation processes.
+This document outlines the complete workflow for developing, building, testing, and deploying the TaskOps to-do application. It covers both development workflows and CI/CD automation processes.
 
 ## Development Workflow
 
@@ -25,8 +25,8 @@ git --version
 #### Project Setup
 ```bash
 # Clone the repository
-git clone https://github.com/krnmaheshwari09/To-do-list-webApp.git
-cd To-do-list-webApp
+git clone https://github.com/krnmaheshwari09/TaskOps-A-DevOps-Driven-Todo-App.git
+cd TaskOps-A-DevOps-Driven-Todo-App
 
 # Setup Frontend
 cd Application-Code/frontend
@@ -53,7 +53,7 @@ REACT_APP_API_URL=http://localhost:3500
 
 # Backend (.env)
 PORT=3500
-MONGODB_URI=mongodb://localhost:27017/todoapp
+MONGODB_URI=mongodb://localhost:27017/taskops
 NODE_ENV=development
 ```
 
@@ -161,7 +161,7 @@ pipeline {
         }
         stage('Checkout from Git') {
             steps {
-                git branch: 'main', url: 'https://github.com/krnmaheshwari09/To-do-list-webApp.git'
+                git branch: 'main', url: 'https://github.com/krnmaheshwari09/TaskOps-A-DevOps-Driven-Todo-App.git'
             }
         }
         stage('Install Dependencies') {
@@ -238,7 +238,7 @@ pipeline {
         }
         stage('Checkout from Git') {
             steps {
-                git branch: 'main', url: 'https://github.com/krnmaheshwari09/To-do-list-webApp.git'
+                git branch: 'main', url: 'https://github.com/krnmaheshwari09/TaskOps-A-DevOps-Driven-Todo-App.git'
             }
         }
         stage('Install Dependencies') {

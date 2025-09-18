@@ -18,7 +18,7 @@ pipeline {
         }
         stage('Checkout from Git') {
             steps {
-                git credentialsId: 'GITHUB', url: 'https://github.com/krnmaheshwari09/To-do-list-webApp.git'
+                git credentialsId: 'GITHUB', url: 'https://github.com/krnmaheshwari09/TaskOps-A-DevOps-Driven-Todo-App.git'
             }
         }
         stage('Sonarqube Analysis') {
@@ -81,12 +81,12 @@ pipeline {
         }
         stage('Checkout Code') {
             steps {
-                git credentialsId: 'GITHUB', url: 'https://github.com/krnmaheshwari09/To-do-list-webApp.git'
+                git credentialsId: 'GITHUB', url: 'https://github.com/krnmaheshwari09/TaskOps-A-DevOps-Driven-Todo-App.git'
             }
         }
         stage('Update Deployment file') {
             environment {
-                GIT_REPO_NAME = "To-do-list-webApp"
+                GIT_REPO_NAME = "TaskOps-A-DevOps-Driven-Todo-App"
                 GIT_USER_NAME = "Karan-DevOps"
             }
             steps {

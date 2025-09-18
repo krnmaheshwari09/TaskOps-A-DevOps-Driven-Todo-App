@@ -1,8 +1,8 @@
-# To-Do List Web Application - Architecture
+# TaskOps-A-DevOps-Driven-Todo-App - Architecture
 
 ## Overview
 
-This document describes the architecture of a full-stack To-Do List web application designed for production deployment on AWS with modern DevOps practices.
+This document describes the architecture of a full-stack TaskOps to-do application designed for production deployment on AWS with modern DevOps practices.
 
 ## System Architecture
 

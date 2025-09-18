@@ -1,4 +1,4 @@
-# To-Do List Web Application
+# TaskOps-A-DevOps-Driven-Todo-App
 
 A modern, full-stack to-do list web application with complete DevOps automation, built using React.js, Node.js, MongoDB, and deployed on AWS with Kubernetes.
 
@@ -59,8 +59,8 @@ A modern, full-stack to-do list web application with complete DevOps automation,
 
 #### 1. Clone the Repository
 ```bash
-git clone https://github.com/krnmaheshwari09/To-do-list-webApp.git
-cd To-do-list-webApp
+git clone https://github.com/krnmaheshwari09/TaskOps-A-DevOps-Driven-Todo-App.git
+cd TaskOps-A-DevOps-Driven-Todo-App
 ```
 
 #### 2. Setup Backend
@@ -271,7 +271,7 @@ readinessProbe:
 ## 📁 Project Structure
 
 ```
-To-do-list-webApp/
+TaskOps-A-DevOps-Driven-Todo-App/
 ├── Application-Code/
 │   ├── frontend/          # React.js frontend application
 │   │   ├── src/           # Source code

@@ -1,8 +1,8 @@
-# To-Do List Web Application - Technical Specification
+# TaskOps-A-DevOps-Driven-Todo-App - Technical Specification
 
 ## Project Overview
 
-A modern, full-stack to-do list web application built with React.js frontend, Node.js backend, and MongoDB database, featuring complete DevOps automation with Jenkins CI/CD, Docker containerization, and Kubernetes deployment on AWS.
+A modern, full-stack TaskOps to-do application built with React.js frontend, Node.js backend, and MongoDB database, featuring complete DevOps automation with Jenkins CI/CD, Docker containerization, and Kubernetes deployment on AWS.
 
 ## Technology Stack
 
@@ -228,8 +228,8 @@ PORT=3500
 NODE_ENV=production
 
 # Database configuration
-MONGODB_URI=mongodb://localhost:27017/todoapp
-DB_NAME=todoapp
+MONGODB_URI=mongodb://localhost:27017/taskops
+DB_NAME=taskops
 
 # CORS configuration
 ALLOWED_ORIGINS=http://localhost:3000,https://yourdomain.com

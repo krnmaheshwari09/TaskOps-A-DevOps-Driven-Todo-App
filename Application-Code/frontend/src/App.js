@@ -11,7 +11,7 @@ class App extends Tasks {
         return (
             <div className="app">
                 <header className="app-header">
-                    <h1>My To-Do List</h1>
+                    <h1>TaskOps - DevOps Todo Manager</h1>
                 </header>
                 <div className="main-content">
                     <Paper elevation={3} className="todo-container">
@@ -23,7 +23,7 @@ class App extends Tasks {
                                 value={currentTask}
                                 required={true}
                                 onChange={this.handleChange}
-                                placeholder="Add New TO-DO"
+                                placeholder="Add New Task"
                             />
                             <Button className="add-task-btn" color="primary" variant="outlined" type="submit">
                                 Add Task
