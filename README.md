@@ -1,4 +1,4 @@
-# To-Do List Web Application
+# TaskOps: A Devops Driven Todo App
 
 A modern, full-stack to-do list web application with complete DevOps automation, built using React.js, Node.js, MongoDB, and deployed on AWS with Kubernetes.
 
